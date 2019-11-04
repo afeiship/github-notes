@@ -1,0 +1,12 @@
+{
+  "name": "github-notes",
+  "version": "1.0.0",
+  "description": "About github.",
+  "homepage": "https://github.com/afeiship/github-notes",
+  "author": {
+    "name": "afeiship",
+    "email": "1290657123@qq.com"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
