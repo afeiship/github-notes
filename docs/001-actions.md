@@ -12,3 +12,4 @@
 ## resources
 - https://github.com/actions
 - http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html
+- https://www.infoq.cn/article/QhNJfG6QYk3kDpKJ3PDq
