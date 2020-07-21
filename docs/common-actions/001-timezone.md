@@ -9,6 +9,7 @@
 ```
 
 ## solution2
+> 这个方案测试下来，要20s差不多，所以，一般情况下，并不推荐使用。
 ```yaml
 - run: echo "::set-env name=TIMEZONE::$(curl https://ipapi.co/timezone)"
 - run: echo "Timezone is ${{ env.TIMEZONE }}."
