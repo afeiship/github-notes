@@ -1,0 +1,36 @@
+### rerun ations
+# POST /repos/afeiship/weiyun-daily/actions/runs/954085569/rerun
+# https://developer.github.com/v3/actions/workflow-runs/
+
+# POST https://api.github.com/repos/afeiship/weiyun-daily/actions/runs/179556810/rerun
+GET /repos/afeiship/weiyun-daily/actions/workflows
+HOST: api.github.com
+Accept: application/vnd.github.v3+json
+Authorization: token TOKEN
+Content-Type: application/vnd.api+json
+# 1718010
+# 1742512
+
+
+#### runnbale workflows
+GET /repos/afeiship/weiyun-daily/actions/runs
+HOST: api.github.com
+Accept: application/vnd.github.v3+json
+Authorization: token TOKEN
+Content-Type: application/vnd.api+json
+
+### rerun jobs
+# https://api.github.com/repos/afeiship/weiyun-daily/actions/runs/179991332/rerun
+POST https://api.github.com/repos/afeiship/weiyun-daily/actions/runs/179991332/rerun
+# HOST: api.github.com
+Accept: application/vnd.github.v3+json
+Authorization: token TOKEN
+Content-Type: application/vnd.api+json
+
+
+### GET Timing
+GET /repos/afeiship/weiyun-daily/actions/runs/179991332/timing
+HOST: api.github.com
+Accept: application/vnd.github.v3+json
+Authorization: token TOKEN
+Content-Type: application/vnd.api+json
