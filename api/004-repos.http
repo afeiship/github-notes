@@ -1,4 +1,12 @@
-GET /users/afeiship/repos?&q=ushell
+### list by page
+GET /users/afeiship/repos?&page=1
 HOST: api.github.com
 Accept: application/vnd.github.mercy-preview+json
+Content-Type: application/vnd.api+json
+
+
+### search
+GET /search/repositories?q=webkit+user:afeiship
+HOST: api.github.com
+Accept: application/vnd.github.v3+json
 Content-Type: application/vnd.api+json
