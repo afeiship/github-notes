@@ -1,4 +1,13 @@
+
+### public
 GET /repos/afeiship/next-log/topics
+HOST: api.github.com
+Accept: application/vnd.github.mercy-preview+json
+Content-Type: application/vnd.api+json
+
+
+### private
+GET /repos/afeiship/next-model-douban-series/topics
 HOST: api.github.com
 Accept: application/vnd.github.mercy-preview+json
 Content-Type: application/vnd.api+json
