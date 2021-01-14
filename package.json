@@ -8,5 +8,11 @@
     "email": "1290657123@qq.com"
   },
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@jswork/next": "^1.0.5",
+    "@jswork/next-absolute-package": "^1.0.1",
+    "@jswork/next-json-configuration": "^1.0.0",
+    "@jswork/next-slice2str": "^1.0.2"
+  }
 }
